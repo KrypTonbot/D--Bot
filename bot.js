@@ -3,9 +3,9 @@ const client = new Discord.Client();
 
 // playing
 client.on('ready', () => {
-client.user.setGame(_help,'https://www.twitch.tv/tarikrs%27);
+client.user.setGame(`,'https://www.twitch.tv/tarikrs');                                                                                                                                                                                                                                                                                                                                                                                                                             client.user.setGame(-help`,'https://www.twitch.tv/v5bz%27);
 });
-  
+
 client.on('message', message => {
   let anything = [
     "وعليكم السلام",
