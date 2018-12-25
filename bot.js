@@ -26,9 +26,19 @@ client.on('message', message => {
 
 client.on("ready", () => { // كود رينبو
   function lol() {
-    client.guilds.get('527003552632274944').roles.find("name", "Wow").setColor("RANDOM");
+    client.guilds.get('527003552632274944').roles .find("name", "Wow").setColor("RANDOM");
   };
   setInterval(lol, 5000);
 });
+
+bot.editChannel("523645471248482324", { name : "✲"});
+bot.editChannel("523645471248482324", { name : "✲W"});
+bot.editChannel("523645471248482324", { name : "✲We"});
+bot.editChannel("523645471248482324", { name : "✲Wel"});
+bot.editChannel("523645471248482324", { name : "✲Welc"});
+bot.editChannel("523645471248482324", { name : "✲Welco"});
+bot.editChannel("523645471248482324", { name : "✲Welcom"});
+bot.editChannel("523645471248482324", { name : "✲Welcome"});
+bot.editChannel("523645471248482324", { name : "✲Welcome✲"});
 
 client.login('NTI3MDEyODk3MjAxNTg2MTkx.DwNizw.NfSNkQzlaKZPXQZWQ1V1oVuQTDI'); 
