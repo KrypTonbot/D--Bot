@@ -36,4 +36,16 @@ client.on('message', async msg => {//Toxic Codes
   }//Toxic Codes
 });//Toxic Codes
 
+client.on('message', message => {
+              if (!message.channel.guild) return;
+      if(message.content =='#count')
+      var n3k4a = new Discord.RichEmbed()
+      .setThumbnail(message.author.avatarURL)
+      .setFooter(message.author.username, message.author.avatarURL)
+      .setTitle('🌷| Members info')
+      .addBlankField(true)
+      .addField('عدد اعضاء السيرفر',`${message.guild.memberCount}`)
+      message.channel.send(n3k4a );
+    });
+
 client.login('NTI3MDEyODk3MjAxNTg2MTkx.DwNizw.NfSNkQzlaKZPXQZWQ1V1oVuQTDI'); 
