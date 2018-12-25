@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+  var prefix = "_";//Toxic Codes
+
 client.on('message', message => {
   let anything = [
     "وعليكم السلام",
@@ -23,6 +25,7 @@ client.on("ready", () => { // كود رينبو
   };
   setInterval(lol, 5000);
 });
+
 
 
 client.login('NTI3MDEyODk3MjAxNTg2MTkx.DwNizw.NfSNkQzlaKZPXQZWQ1V1oVuQTDI'); 
