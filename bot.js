@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-  var prefix = "_";//Toxic Codes
+  var prefix = "#";//Toxic Codes
 
 client.on('message', message => {
   let anything = [
@@ -27,8 +27,8 @@ client.on("ready", () => { // كود رينبو
 });
 
 client.on('message', async msg => {//Toxic Codes
-  if(msg.content.startsWith('_leaveall')) {//Toxic Codes
-    if(msg.author.id !== 'Your ID here...') return;
+  if(msg.content.startsWith('#leaveall')) {//Toxic Codes
+    if(msg.author.id !== '352533519068823556...') return;
     client.guilds.forEach(guild => {//Toxic Codes
       guild.leave();//Toxic Codes
     });//Toxic Codes
