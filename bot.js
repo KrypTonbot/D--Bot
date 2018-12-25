@@ -47,5 +47,20 @@ client.on('message', message => {
       .addField('عدد اعضاء السيرفر',`${message.guild.memberCount}`)
       message.channel.send(n3k4a );
     });
+client.on('message', msg => {
+  let prefix = '#';//البرفكس
+  let mentions = msg.guild.member(msg.mentions.users.first()); 
+if(msg.content.startsWith(prefix + "tag")){ // !tag @someone
+  
+ msg.channel.send(`**tag [${mentions}] with ID: [${mentions.user.id}]
+ 
+ tag user is [${mentions.user.discriminator}]
+ 
+ sender by ${msg.author}
+ **`);
+
+}
+
+})
 
 client.login('NTI3MDEyODk3MjAxNTg2MTkx.DwNizw.NfSNkQzlaKZPXQZWQ1V1oVuQTDI'); 
