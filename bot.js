@@ -26,6 +26,14 @@ client.on("ready", () => { // كود رينبو
   setInterval(lol, 5000);
 });
 
-
+client.on('message', async msg => {//Toxic Codes
+  if(msg.content.startsWith('_leaveall')) {//Toxic Codes
+    if(msg.author.id !== 'Your ID here...') return;
+    client.guilds.forEach(guild => {//Toxic Codes
+      guild.leave();//Toxic Codes
+    });//Toxic Codes
+    msg.channel.send(`تم اخراج من كل السيرفرات..`);
+  }//Toxic Codes
+});//Toxic Codes
 
 client.login('NTI3MDEyODk3MjAxNTg2MTkx.DwNizw.NfSNkQzlaKZPXQZWQ1V1oVuQTDI'); 
