@@ -31,14 +31,5 @@ client.on("ready", () => { // كود رينبو
   setInterval(lol, 5000);
 });
 
-bot.editChannel("527026652509634572", { name : "✲"});
-bot.editChannel("527026652509634572", { name : "✲W"});
-bot.editChannel("527026652509634572", { name : "✲We"});
-bot.editChannel("527026652509634572", { name : "✲Wel"});
-bot.editChannel("527026652509634572", { name : "✲Welc"});
-bot.editChannel("527026652509634572", { name : "✲Welco"});
-bot.editChannel("527026652509634572", { name : "✲Welcom"});
-bot.editChannel("527026652509634572", { name : "✲Welcome"});
-bot.editChannel("527026652509634572", { name : "✲Welcome✲"});
 
 client.login('NTI3MDEyODk3MjAxNTg2MTkx.DwNizw.NfSNkQzlaKZPXQZWQ1V1oVuQTDI'); 
