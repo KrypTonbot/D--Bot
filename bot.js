@@ -1,13 +1,11 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-
-
 // playing
-client.on('ready', () => {                           
-client.user.setGame(`_help`,'https://www.twitch.tv/tarikrs');                                                                                                                                                                                                                                                                                                                                                                                                                             client.user.setGame(`-help | On 20 Servers`,'https://www.twitch.tv/v5bz');
-});          
-
+client.on('ready', () => {
+client.user.setGame(_help,'https://www.twitch.tv/tarikrs%27);
+});
+  
 client.on('message', message => {
   let anything = [
     "وعليكم السلام",
